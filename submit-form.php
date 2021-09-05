@@ -66,12 +66,12 @@ try {
     $mail->isSMTP();                      
     $mail->Host = 'smtp.gmail.com';       
     $mail->SMTPAuth = true;               
-    $mail->Username = getenv('senderEmail');   
-    $mail->Password = getenv('senderEmailPassword');   
+    $mail->Username = getenv('FROM');   
+    $mail->Password = getenv('PASSWORD');   
     $mail->SMTPSecure = 'tls'; 
     $mail->Port = 587;
-    $mail->setFrom(getenv('senderEmail'), 'Website Mailer');
-    $mail->addAddress(getenv('receiverEmail'), getenv('to_name')); 
+    $mail->setFrom(getenv('FROM'), 'Website Mailer');
+    $mail->addAddress(getenv('TO'), getenv('TO_NAME')); 
 
 
     $mail->isHTML(true);                                 
@@ -82,6 +82,7 @@ try {
     $mail->send();
     echo '1';
 } catch (Exception $e) {
+    echo getenv('FROM');
     echo $e;
 }
 
