@@ -65,11 +65,11 @@ try {
 try {
     $mail->isSMTP();                      
     $mail->Host = 'smtp.gmail.com';       
-    $mail->SMTPAuth = true;               
+    $mail->SMTPAuth = false;               
     $mail->Username = getenv('FROM');   
     $mail->Password = getenv('PASSWORD');   
-    $mail->SMTPSecure = 'tls'; 
-    $mail->Port = 587;
+    $mail->SMTPSecure = 'ssl'; 
+    $mail->Port = 465;
     $mail->setFrom(getenv('FROM'), 'Website Mailer');
     $mail->addAddress(getenv('TO'), getenv('TO_NAME')); 
 
