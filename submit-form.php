@@ -14,10 +14,14 @@ function validate_input($data) {
     $data = preg_replace('!\s+!', ' ', $data);
     return $data;
 }
-
 $name = validate_input($_POST['name']);
 $email = validate_input($_POST['email']);
 $message = validate_input($_POST['message']);
+
+if(!$name || !$message || !$email){
+    echo 'no data';
+    die();
+}
 
 
 $mail = new PHPMailer(true);

@@ -120,7 +120,7 @@ ul {
 }
 
 .box-content {
-  background: rgba(36, 36, 36, 0.3);
+  background: none;
   padding: 40px;
   border-radius: 3px;
 }
@@ -176,7 +176,7 @@ ul {
 /*navbar*/
 .navbar {
   margin: 27px 0;
-  background: rgba(36, 36, 36, 0.3);
+  background: none;
   color: #fff;
   padding: 8px 40px;
   -webkit-transition: all .5s ease;
@@ -204,7 +204,7 @@ ul {
   left: 0;
   right: 0;
   z-index: 999;
-  background: rgba(36, 36, 36, 0.3);
+  background: none;
   margin-top: 0;
   -webkit-box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.2);
@@ -259,7 +259,7 @@ ul {
 }
 
 .about .content-left {
-  padding: 40px;
+  padding: 10px;
 }
 
 .about .content-left .content h2 {
@@ -588,7 +588,7 @@ ul {
 
 /*blog*/
 .blog .content {
-  background: rgba(36, 36, 36, 0.3);
+  background: none;
   border-radius: 3px;
 }
 
@@ -645,23 +645,6 @@ ul {
   font-size: 14px;
   position: relative;
   z-index: 99;
-}
-
-.blog .content .blog-title .date span::after {
-  content: "";
-  height: 0;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  position: absolute;
-  transition: all 0.3s ease 0s;
-  -webkit-transition: all 0.3s ease 0s;
-  z-index: -1000;
-}
-
-.blog .content .blog-title .date span:hover::after {
-  height: 10px;
-  background: #525252;
 }
 
 /*contact*/
@@ -736,7 +719,7 @@ ul {
   position: fixed;
   width: 100%;
   background: #000;
-  z-index: 10;
+  z-index: 10000000000;
   height: 100%;
   top: 0;
 }
@@ -753,7 +736,7 @@ ul {
 }
 
 .modal-content {
-  background-color: rgba(36, 36, 36, 0.6) !important;
+  background-color: none !important;
 }
 
 .modal-content .v-center {
@@ -768,8 +751,12 @@ ul {
   font-weight: 900;
 }
 
+.blog .image {
+  max-height: 300px;
+}
+
 .blog-detail {
-  background: rgba(36, 36, 36, 0.6);
+  background: none;
 }
 
 @media (max-width: 767px) {

@@ -406,7 +406,7 @@
                                         <h4>Weather Forecast App</h4>
                                     </div>
                                     <div class="subtitle-new">
-                                        <span>Node, React, Express</span>
+                                        <span>Node, Express</span>
                                     </div>
                                 </div>
                             </a>
@@ -434,7 +434,7 @@
                         <div class="blog-title">
                             <h4><a href="oumuamua-an-alien-spaceship.php">Oumuamua - An Alien Spaceship?</a></h4>
                             <div class="date">
-                                March 02, 2020 <i class="fa fa-circle"></i> <a href="oumuamua-an-alien-spaceship.php"><span>Science & Technology</span></a>
+                                 <a href="oumuamua-an-alien-spaceship.php"><span>Science & Technology</span></a>
                             </div>
                         </div>
                     </div>
@@ -447,7 +447,7 @@
                         <div class="blog-title">
                             <h4><a href="zen-for-an-evoled-leadership.php">Zense : For an Evolved Leadership</a></h4>
                             <div class="date">
-                                March 02, 2020 <i class="fa fa-circle"></i> <a href="zen-for-an-evoled-leadership.php"><span>Book Summary</span></a>
+                                 <a href="zen-for-an-evoled-leadership.php"><span>Book Summary</span></a>
                             </div>
                         </div>
                     </div>
