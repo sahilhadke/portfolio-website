@@ -82,7 +82,6 @@ try {
     $mail->send();
     echo '1';
 } catch (Exception $e) {
-    echo getenv('PASSWORD');
     echo $e;
 }
 
