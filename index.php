@@ -592,12 +592,11 @@
                 dataType  : 'json',
                 success   : function(data) {
                     if (data == "1") { //If fails
-                    $('#wait').modal('hide');
-                    $('#thankyou').modal('show');
-
+                        $('#wait').modal('hide');
+                        $('#thankyou').modal('show');
                     }
                     else {                        
-                        alert('something went wrong');    
+                        console.log(data);
                     }
                 }
             });

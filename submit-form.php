@@ -44,7 +44,7 @@ $email_message_nohtml = <<<END
     
 
 END;
-
+/*
 try {
     $to = "sahil.hadke@gmail.com";
     $subject = "My subject";
@@ -58,10 +58,10 @@ try {
     }
 
 } catch (Exception $e) {
-    echo "0";
+    echo $e;
 }
+*/
 
-/*
 try {
     $mail->isSMTP();                      
     $mail->Host = 'smtp.gmail.com';       
@@ -71,7 +71,7 @@ try {
     $mail->SMTPSecure = 'tls'; 
     $mail->Port = 587;
     $mail->setFrom(getenv('senderEmail'), 'Website Mailer');
-    $mail->addAddress(getenv('receiverEmail')); 
+    $mail->addAddress(getenv('receiverEmail'), getenv('to_name')); 
 
 
     $mail->isHTML(true);                                 
@@ -82,8 +82,8 @@ try {
     $mail->send();
     echo '1';
 } catch (Exception $e) {
-    echo "0";
+    echo $e;
 }
-*/
+
 
 ?>
