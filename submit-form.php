@@ -65,7 +65,7 @@ try {
 try {
     $mail->isSMTP();                      
     $mail->Host = 'smtp.gmail.com';       
-    $mail->SMTPAuth = false;               
+    $mail->SMTPAuth = true;               
     $mail->Username = getenv('FROM');   
     $mail->Password = getenv('PASSWORD');   
     $mail->SMTPSecure = 'ssl'; 
