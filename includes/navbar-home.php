@@ -24,7 +24,7 @@
                             <a href="#resume" class="nav-link">Resume</a>
                         </li>
                         <li class="nav-item">
-                            <a href="" class="nav-link">Projects</a>
+                            <a href="#projects" class="nav-link">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a href="#blog" class="nav-link">Blog</a>
