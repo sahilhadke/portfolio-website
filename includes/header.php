@@ -17,8 +17,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="icon" href="images/sahil.webp">
-    <title>Sahil Hadke</title>
-
+    <title>Sahil Hadke | Web Developer</title>
+    <meta name="description" content="Passionate about my work, and love what I do. I taught myself how to build websites and soon turned this into a profession.">
+    <meta name=”robots” content="index, follow">
     <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,900&display=swap" rel="stylesheet">
     <!-- end font -->
