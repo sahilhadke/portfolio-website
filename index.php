@@ -185,7 +185,7 @@
                                                                     <span>PHP</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -193,7 +193,7 @@
                                                                     <span>JavaScript</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -201,7 +201,7 @@
                                                                     <span>WordPress</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -209,7 +209,7 @@
                                                                     <span>MySQL</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -235,7 +235,7 @@
                                                                     <span>MongoDB</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 88%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="width: 68%"></div>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -243,7 +243,7 @@
                                                                     <span>Express</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -251,7 +251,7 @@
                                                                     <span>React</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -259,7 +259,7 @@
                                                                     <span>Node</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -281,10 +281,10 @@
                                                         <ul class="pro-skill">
                                                             <li>
                                                                 <div class="skill-title">
-                                                                    <span>C / C++</span>
+                                                                    <span>C++</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 70%"></div>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -292,15 +292,7 @@
                                                                     <span>Python</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
-                                                                </div>
-                                                            </li>
-                                                            <li>
-                                                                <div class="skill-title">
-                                                                    <span>C#</span>
-                                                                </div>
-                                                                <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
                                                                 </div>
                                                             </li>
                                                             
@@ -326,15 +318,15 @@
                                                                     <span>GIMP</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 78%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100" style="width: 68%"></div>
                                                                 </div>
                                                             </li>
                                                             <li>
                                                                 <div class="skill-title">
-                                                                    <span>Unity3D</span>
+                                                                    <span>Unity3D / C# (Basics)</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 60%"></div>
                                                                 </div>
                                                             </li>
                                                             <li>
@@ -350,7 +342,7 @@
                                                                     <span>Linux</span>
                                                                 </div>
                                                                 <div class="progress">
-                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 65%"></div>
                                                                 </div>
                                                             </li>
                                                         </ul>
